@@ -5,7 +5,7 @@ $dark-text: #a5afac;
 $dark-accent: #1e2738;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 
 body[data-bs-theme="dark"] {
   background-color: $dark-background;
