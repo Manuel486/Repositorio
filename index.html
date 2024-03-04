@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio - Manuel Chunga Vargas</title>
+    <link rel="icon" type="image/png" href="ruta/a/tu/icono.png">
+    <link href="/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+
+</head>
+
+<body data-bs-theme="dark">
+    <div id="about-me" class="container">
+        <nav class="nav mx-auto shadow rounded navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid mx-auto">
+                <button onclick="toggleTheme()" class="navbar-brand btn btn-outline ">
+                    <i id="dl-icon" class="bi bi-sun-fill"></i>
+                </button>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bold">
+                        <a class="nav-link mx-3 " href="#about-me">
+                            <i class="bi bi-file-person-fill fs-5"></i>
+                            <span class="">Sobre mi</span>
+                        </a>
+                        <a class="nav-link mx-3" href="#skills">
+                            <i class="bi bi-person-workspace fs-5"></i>
+                            <span class="">Skills</span>
+                        </a>
+                        <a class="nav-link mx-3" href="#projects">
+                            <i class="bi bi-person-workspace fs-5"></i>
+                            <span class="">Proyectos</span>
+                        </a>
+                        <a class="nav-link mx-3" href="#contact-me">
+                            <i class="bi bi-person-workspace fs-5"></i>
+                            <span class="">Contáctame</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="header shadow rounded mx-auto p-5 text-center">
+            <img src="assets/images/foto-dibujo.png" class="header__img" alt="manuel-image">
+            <h2 class="header__title fw-bold my-3 ">Manuel Chunga</h2>
+            <p class="header__text mx-auto fs-5 ">Hola, soy estudiante de la carrera de <span
+                    class="fw-semibold fst-italic">Ingeniería de Sistemas en
+                    la UNMSM</span>, donde me encuentro inmerso en el fascinante mundo de la tecnología. Mi mayor pasión
+                y
+                enfoque se
+                centra en el <span class="fw-semibold fst-italic">desarrollo web</span>, donde disfruto explorando y
+                creando
+                soluciones innovadora </p>
+            <a href="https://drive.google.com/file/d/1REqV9zFy_ttgt2lr-K_I1t86KhYy9fyn/view?usp=sharing" target="_blank"
+                class="btn btn-primary rounded-pill fw-bold  px-4 py-2">
+                Ver CV
+                <i class="bi bi-arrow-right"></i>
+            </a>
+        </header>
+
+        <section id="skills" class="skills shadow rounded mx-auto p-5 my-5 ">
+            <h2 class="skills__title text-center fw-bold my-3">Mis Skills</h2>
+            <p class="skills__text mx-auto fs-5 text-center mb-5">Tengo habilidades en diversas tecnologías tanto para
+                el desarrollo de backend como de frontend, con especialización en la creación de APIs para la parte del
+                backend.</p>
+            <div class="technological__skills d-flex justify-content-center flex-wrap mx-auto my-3">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/javascript.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/angular.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/boostrap.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/css.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/sass.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/tailwindcss.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/git.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/github.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/mysql.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/postgresSQL.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/java.svg" alt="">
+                <img class="tech-icon-v2 mb-3 mx-3" src="assets/images/spring.svg" alt="">
+            </div>
+
+        </section>
+
+        <section id="projects" class="projects shadow rounded  mx-auto p-5 my-5 ">
+            <h2 class="projects__title text-center fw-bold my-3">Mis proyectos</h2>
+            <p class="projects__text mx-auto fs-5 text-center">Estos son proyectos que realicé en distintos cursos y
+                bootcamps a lo largo de mi desarrollo, tanto en CERTUS y ONE como en la universidad.</p>
+            <div class="row row-cols-1 row-cols-lg-2 my-3 g-5">
+                <div class="col">
+                    <img class="img-fluid project__img" src="assets/images/crud-hero.png" alt="crud-hero">
+
+                    <div class="d-flex my-3 flex-column flex-md-row align-items-md-center justify-content-between">
+                        <h3 class="my-3 projects__title">HeroesApp</h3>
+                        <div>
+                            <img class="tech-icon m-1" src="assets/images/angular.svg" alt="angular">
+                            <img class="tech-icon m-1" src="assets/images/angular-material.png" alt="angular-material">
+                            <img class="tech-icon m-1" src="assets/images/typeScript.svg" alt="typeSCript">
+                        </div>
+                    </div>
+                    <p class="project__description overflow-auto border border-primary rounded  p-2">Es una página donde
+                        se permite crear, agregar y eliminar héroes (CRUD). También cuenta con un inicio de sesión donde
+                        valida el token del usuario. Para el diseño, se trabajó con Angular Material.</p>
+                    <div class="d-flex gap-1">
+                        <a class="btn btn-primary font-bold" href="https://github.com/Manuel486/HeroesApp"
+                            target="_blank">
+                            <span class="me-1">Ver código</span>
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="img-fluid project__img" src="assets/images/store-mega-web.png" alt="StoreMega-Web">
+
+                    <div class="d-flex my-3 flex-column flex-md-row align-items-md-center justify-content-between">
+                        <h3 class="my-3 projects__title">StoreMega-Web</h3>
+                        <div>
+                            <img class="tech-icon m-1" src="assets/images/html.svg" alt="html">
+                            <img class="tech-icon m-1" src="assets/images/css.svg" alt="css">
+                            <img class="tech-icon m-1" src="assets/images/javascript.svg" alt="javascript">
+                        </div>
+                    </div>
+                    <p class="project__description overflow-auto border border-primary rounded  p-2">Es una página web
+                        donde se venden productos tecnológicos, como accesorios para laptops y audífonos. Cuenta con una
+                        pasarela de pago, así como integración con PayPal, para que los usuarios puedan comprar sus
+                        productos.</p>
+                    <div class="d-flex gap-1">
+                        <a class="btn btn-primary font-bold" href="https://github.com/Manuel486/Store_Mega"
+                            target="_blank">
+                            <span class="me-1">Ver código</span>
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a class="btn btn-primary font-bold" href="https://manuel486.github.io/Store_Mega/"
+                            target="_blank">
+                            <span class="me-1">Ver página</span>
+                            <i class="bi bi-eye-fill"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <img class="img-fluid project__img" src="assets/images/store-mega-desktop.png"
+                        alt="StoreMega-Desktop">
+
+                    <div class="d-flex my-3 flex-column flex-md-row align-items-md-center justify-content-between">
+                        <h3 class="my-3 projects__title">StoreMega-Desktop</h3>
+                        <div>
+                            <img class="tech-icon m-1" src="assets/images/java.svg" alt="java">
+                            <img class="tech-icon m-1" src="assets/images/mysql.svg" alt="mysql">
+                        </div>
+                    </div>
+                    <p class="project__description overflow-auto border border-primary rounded  p-2">Es una aplicación
+                        de escritorio que permite agregar, eliminar y editar productos, así como administrar las ventas.
+                        Está desarrollada en Java utilizando el patrón MVC y haciendo uso de JFrame y MySQL.</p>
+                    <div class="d-flex gap-1">
+                        <a class="btn btn-primary font-bold" href="https://github.com/Manuel486/Store-Mega"
+                            target="_blank">
+                            <span class="me-1">Ver código</span>
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="img-fluid project__img" src="assets/images/juego-del-ahorcado.png"
+                        alt="Juego del ahorcado">
+
+                    <div class="d-flex my-3 flex-column flex-md-row align-items-md-center justify-content-between">
+                        <h3 class="my-3 projects__title">Juego del ahorcado</h3>
+                        <div class="">
+                            <img class="tech-icon m-1" src="assets/images/html.svg" alt="hml">
+                            <img class="tech-icon m-1" src="assets/images/css.svg" alt="css">
+                            <img class="tech-icon m-1" src="assets/images/javascript.svg" alt="javascript">
+                        </div>
+                    </div>
+                    <p class="project__description overflow-auto border border-primary rounded  p-2">En este juego, el
+                        usuario podrá adivinar palabras sin perder. Una pista es que las palabras están relacionadas con
+                        los lenguajes de programación. Además, el usuario puede agregar nuevas palabras al juego.</p>
+                    <div class="d-flex gap-1">
+                        <a class="btn btn-primary font-bold" href="https://github.com/Manuel486/ONE-Challenge2"
+                            target="_blank">
+                            <span class="me-1">Ver código</span>
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a class="btn btn-primary font-bold" href="https://manuel486.github.io/ONE-Challenge2/"
+                            target="_blank">
+                            <span class="me-1">Ver página</span>
+                            <i class="bi bi-eye-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="img-fluid project__img" src="assets/images/sistema-de-encriptacion.png"
+                        alt="sistema de encriptación">
+
+                    <div class="d-flex my-3 flex-column flex-md-row align-items-md-center justify-content-between">
+                        <h3 class="my-3 projects__title">Encriptación</h3>
+                        <div>
+                            <img class="tech-icon m-1" src="assets/images/html.svg" alt="hml">
+                            <img class="tech-icon m-1" src="assets/images/css.svg" alt="css">
+                            <img class="tech-icon m-1" src="assets/images/javascript.svg" alt="javascript">
+                        </div>
+                    </div>
+                    <p class="project__description overflow-auto border border-primary rounded  p-2">En este sistema de
+                        encriptación, el usuario podrá guardar de manera secreta sus palabras, cumpliendo con los
+                        requisitos necesarios para ingresar cada texto.</p>
+
+                    <div class="d-flex gap-1">
+                        <a class="btn btn-primary font-bold" href="https://github.com/Manuel486/ONE-Challenge1"
+                            target="_blank">
+                            <span class="me-1">Ver código</span>
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a class="btn btn-primary font-bold" href="https://manuel486.github.io/ONE-Challenge1/"
+                            target="_blank">
+                            <span class="me-1">Ver página</span>
+                            <i class="bi bi-eye-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section id="contact-me" class="contact shadow rounded mx-auto p-5 my-3">
+        <h2 class="contact__title text-center fw-bold mb-3">Contáctame</h2>
+        <p class="contact__text mx-auto fs-5 text-center mb-5">Si necesitas ayuda en algún proyecto o tienes alguna
+            tarea en la que podamos colaborar, no dudes en contactarme. Estoy dispuesto a discutir cualquier tema que te
+            interese o que necesites aclarar. ¡Espero poder contribuir y trabajar juntos en futuros proyectos!</p>
+        <form action="mailto:manuelalberto.chunga@gmail.com" method="post" enctype="text/plain">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <input type="text" class="form-control p-2" placeholder="Nombre" name="Name" required>
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control p-2" placeholder="Email" name="Email" required>
+                </div>
+            </div>
+            <textarea class="form-control my-3" placeholder="Ingrese su mensaje" name="Message" required
+                style="height: 300px"></textarea>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+
+
+    </section>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

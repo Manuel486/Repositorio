@@ -1,0 +1,83 @@
+$primary: #4f6591;
+$dark-background: #19202e;
+$light-background: white;
+$dark-text: #a5afac;
+$dark-accent: #1e2738;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body[data-bs-theme="dark"] {
+  background-color: $dark-background;
+  color: $dark-text;
+
+  .header,
+  .projects,
+  .skills,
+  .contact,
+  .nav {
+    background-color: $dark-accent;
+  }
+
+  .projects__title,
+  .header__title,
+  .skills__title,
+  .contact__title {
+    color: white;
+  }
+}
+
+// Estilos generales
+.nav {
+  margin-top: 1.25rem;
+  margin-bottom: 10.625rem;
+  background-color: $light-background;
+  max-width: 60rem;
+}
+
+.header,
+.projects,
+.skills,
+.contact {
+  max-width: 60rem;
+}
+
+.header {
+  position: relative;
+}
+
+.header__img {
+  height: 11.25rem;
+  width: 11.25rem;
+  border-radius: 50%;
+  border: 0.5rem solid $dark-accent;
+  position: absolute;
+  top: -8.75rem;
+  left: 50%;
+  object-fit: cover;
+  transform: translateX(-50%);
+}
+
+.tech-icon {
+  height: 2rem;
+}
+
+.tech-icon-v2 {
+  height: 3rem;
+}
+
+.img-fluid {
+  height: 300px;
+}
+
+.project__description {
+  height: 10rem;
+}
+
+.technological__skills {
+  max-width: 40rem;
+}
+
+.project__img {
+  max-height: 14rem;
+  width: 100%;
+}
